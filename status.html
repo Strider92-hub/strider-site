@@ -17,7 +17,8 @@
  .ok { color:#0a7d33; font-weight:600; }
  .warn { color:#8a5a00; font-weight:600; }
  .down { color:#9b1c1c; font-weight:600; }
- .banner { background:#eaf7ee; border:1px solid #b8e2c5; border-radius:9px;
+ .soon { color:#5b6470; font-weight:600; }
+ .banner { background:#eef4fb; border:1px solid #c3d8ee; border-radius:9px;
            padding:18px 20px; margin:20px 0; font-size:1.05em; }
  .box { background:#f7f9fb; border:1px solid #e3e7ec; border-radius:9px; padding:16px 18px; margin:20px 0; }
  a { color:#1a56b8; }
@@ -26,52 +27,66 @@
 <body>
 
 <h1>Status</h1>
-<p class="updated">Last updated 25 August 2026</p>
+<p class="updated">Last updated 1 September 2026</p>
 
 <div class="banner">
-  <strong class="ok">All systems normal.</strong>
-  No known problems with publishing to any platform.
+<strong>Strider is in development and not yet open to the public.</strong>
+Only YouTube publishing is built. The other platforms are not connected yet,
+so there is nothing to report a status for. This page will report real
+operational status once there is a live service behind it.
 </div>
 
 <h2>Publishing</h2>
 
 <table>
-  <tr><th>Platform</th><th>Status</th><th>Note</th></tr>
-  <tr><td>YouTube</td><td class="ok">Normal</td><td></td></tr>
-  <tr><td>TikTok</td><td class="ok">Normal</td><td></td></tr>
-  <tr><td>Instagram</td><td class="ok">Normal</td><td></td></tr>
-  <tr><td>Facebook</td><td class="ok">Normal</td><td></td></tr>
-  <tr><td>X</td><td class="ok">Normal</td><td></td></tr>
+  <tr><th>Platform</th><th>Built?</th><th>Status</th></tr>
+  <tr>
+    <td>YouTube</td>
+    <td>Yes — in development testing</td>
+    <td class="ok">Working</td>
+  </tr>
+  <tr>
+    <td>Facebook</td>
+    <td>Not built yet</td>
+    <td class="soon">—</td>
+  </tr>
+  <tr>
+    <td>Instagram</td>
+    <td>Not built yet</td>
+    <td class="soon">—</td>
+  </tr>
+  <tr>
+    <td>TikTok</td>
+    <td>Not built yet</td>
+    <td class="soon">—</td>
+  </tr>
+  <tr>
+    <td>X</td>
+    <td>Not built yet</td>
+    <td class="soon">—</td>
+  </tr>
 </table>
 
-<h2>Is it me or is it you?</h2>
-
-<p>If a post has not gone out and nothing is listed above, it is worth checking
-these before getting in touch — they cover most cases:</p>
-
-<div class="box">
-<ol>
-  <li><strong>Has the account been disconnected?</strong> Platforms sometimes
-      end an app's access, particularly after a password change. Strider will
-      say so, and reconnecting fixes it.</li>
-  <li><strong>Did the platform reject the video?</strong> Length and shape
-      limits differ by platform — see the
-      <a href="/platforms.html">platform support page</a>.</li>
-  <li><strong>Was it a Story?</strong> Facebook and Instagram do not allow
-      Stories to be scheduled by any outside tool. That is their limit, not
-      ours.</li>
-</ol>
-</div>
+<p>“Working” above means publishing to YouTube has been tested successfully
+against a real channel during development. It does not yet mean a live service
+with users on it.</p>
 
 <h2>Past incidents</h2>
-<p>None recorded.</p>
+<p>None. There is no live service yet, so there is nothing to report.</p>
 
 <h2>Reporting a problem</h2>
-<p>Run <strong>Send Diagnostics</strong> from your Strider folder. It writes a
-single file describing your installation, opens it so you can read it before
-sending, and never includes your passwords or access tokens. Email it to
-<a href="mailto:hello@getstrider.co.uk">hello@getstrider.co.uk</a> with a short
-note about what you expected to happen.</p>
+
+<p>Strider is not open to the public, so there is no support queue yet. If you
+are testing Strider and something is not working, email
+<a href="mailto:hello@getstrider.co.uk">hello@getstrider.co.uk</a> with what
+you expected to happen and what happened instead.</p>
+
+<div class="box">
+<strong>Why this page looks empty.</strong> A status page is only worth
+anything if it tells the truth. Until there is a hosted service with users on
+it, the honest thing to report is that most of it does not exist yet. When
+platforms go live they will appear here, and so will any outage.
+</div>
 
 <p style="margin-top:40px"><a href="/">← Back to Strider</a></p>
 
