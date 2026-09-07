@@ -23,7 +23,7 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Strider · Last updated 1 September 2026</p>
+<p class="updated">Strider · Last updated 2 September 2026</p>
 
 <p><strong>Strider</strong> is a scheduling application for individual content
 creators. It publishes a creator's own videos to the creator's own social media
@@ -108,7 +108,37 @@ account you have not connected.</p>
   <li>An email address, for your account and for support</li>
   <li>A record of what was published and when, so the app can show you your
       history and avoid publishing the same thing twice</li>
+  <li>A short identifier of each video's contents, so the same clip is not
+      accidentally published twice to the same account. It is derived from
+      the file and cannot be turned back into it</li>
 </ul>
+
+<h3>Cookies</h3>
+<p>Strider sets <strong>one cookie</strong>, and only after you sign in.</p>
+
+<table>
+  <tr><th>Name</th><th>What it is for</th><th>How long it lasts</th></tr>
+  <tr>
+    <td><code>strider_session</code></td>
+    <td>Keeps you signed in, so you are not asked for your password on every
+        page. It holds a random identifier and nothing else &mdash; no name,
+        no email address, and nothing about you.</td>
+    <td>30 days, or until you sign out</td>
+  </tr>
+</table>
+
+<p>It is <strong>strictly necessary</strong>: without it, signing in would not
+work at all. That is why there is no cookie banner &mdash; there is nothing to
+opt out of that would leave a working product, and Strider sets no analytics,
+advertising or tracking cookies of any kind.</p>
+
+<p>The cookie is marked <code>HttpOnly</code>, so scripts on the page cannot
+read it, and <code>SameSite=Lax</code>, so another website cannot use it to act
+as you. When Strider is reached over <code>https</code> it is also marked
+<code>Secure</code>, so it is never sent unencrypted.</p>
+
+<p>Signing out deletes it. Clearing your browser's cookies for this site does
+the same thing, and signs you out.</p>
 
 <h2>2. How that data is used</h2>
 
