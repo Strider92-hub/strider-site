@@ -26,78 +26,86 @@
 <body>
 
 <h1>Platform support</h1>
-<p class="updated">What is built, what is planned, and what no tool can do.
-Last updated 1 September 2026.</p>
+<p class="updated">What is built, what each platform has yet to approve, and
+what no tool can do. Last updated 15 September 2026.</p>
 
 <div class="box">
-<strong>Strider is in development and not yet open to the public.</strong>
-Only YouTube is built. This page separates <em>what exists today</em> from
-<em>what is planned</em>, because a support page is worth nothing if it
-describes things that are not there.
+<strong>Strider is not yet open for public sign-up.</strong>
+All five platforms are built and publishing &mdash; that part is done. What is
+not done is the approval each platform runs before it will let an app connect
+accounts other than its developer&rsquo;s own. YouTube and X are through.
+TikTok, Facebook and Instagram are not. This page keeps those two things in
+separate columns, because a support page is worth nothing if it blurs
+<em>we have built it</em> into <em>you can use it</em>.
 </div>
 
-<h2>Built today</h2>
+<h2>Publishing to each platform</h2>
 
 <table>
   <tr>
-    <th>Platform</th><th>Video</th><th>Scheduling</th><th>First comment</th><th>Notes</th>
+    <th>Platform</th><th>Video</th><th>Scheduling</th><th>Open to your account</th><th>Notes</th>
   </tr>
   <tr>
     <td><strong>YouTube</strong></td>
+    <td class="yes">Built</td>
+    <td class="yes">Built</td>
     <td class="yes">Yes</td>
-    <td class="yes">Yes</td>
-    <td class="no">No</td>
     <td>Shorts and standard uploads. You choose public, unlisted or private.
         Scheduled videos are uploaded straight away as private, and YouTube
-        publishes them itself at your chosen time. First comments are not
-        possible — see below.</td>
-  </tr>
-</table>
-
-<h2>Planned, not yet built</h2>
-
-<p>These are the platforms Strider is being built towards. <strong>None of
-them works yet.</strong> What each row describes is what the platform's own
-interface allows, and therefore what Strider will be able to do once it is
-connected.</p>
-
-<table>
-  <tr>
-    <th>Platform</th><th>Video</th><th>Scheduling</th><th>First comment</th><th>What the platform allows</th>
-  </tr>
-  <tr>
-    <td><strong>Facebook</strong></td>
-    <td class="part">Planned</td>
-    <td class="part">Planned</td>
-    <td class="part">Planned</td>
-    <td>Reels to a Page you manage. Facebook can hold a post and publish it
-        itself, up to about 75 days ahead.</td>
-  </tr>
-  <tr>
-    <td><strong>Instagram</strong></td>
-    <td class="part">Planned</td>
-    <td class="part">Planned</td>
-    <td class="part">Planned</td>
-    <td>Reels, to a business account linked to a Facebook Page. Instagram has
-        no scheduling of its own, so the timing has to come from Strider.</td>
-  </tr>
-  <tr>
-    <td><strong>TikTok</strong></td>
-    <td class="part">Planned</td>
-    <td class="part">Planned</td>
-    <td class="no">Not possible</td>
-    <td>TikTok has no scheduling of its own, so the timing has to come from
-        Strider.</td>
+        publishes them itself at your chosen time.</td>
   </tr>
   <tr>
     <td><strong>X</strong></td>
-    <td class="part">Planned</td>
-    <td class="part">Planned</td>
-    <td class="part">Planned</td>
-    <td>X has no scheduling of its own. It also now charges for API access,
-        so it is the lowest priority of the four.</td>
+    <td class="yes">Built</td>
+    <td class="yes">Built</td>
+    <td class="yes">Yes</td>
+    <td>X has no scheduling of its own, so the timing comes from Strider.
+        <strong>X charges per post and Strider passes that cost on at cost</strong>
+        &mdash; see the <a href="/pricing.html">pricing page</a>, where it is set
+        out in full rather than buried.</td>
+  </tr>
+  <tr>
+    <td><strong>TikTok</strong></td>
+    <td class="yes">Built</td>
+    <td class="yes">Built</td>
+    <td class="part">Not yet</td>
+    <td>TikTok has no scheduling of its own, so the timing comes from Strider.
+        <strong>Strider&rsquo;s TikTok app has been under review since
+        8 September 2026.</strong> Until it passes, TikTok can only be connected
+        by the developer&rsquo;s own account.</td>
+  </tr>
+  <tr>
+    <td><strong>Facebook</strong></td>
+    <td class="yes">Built</td>
+    <td class="yes">Built</td>
+    <td class="part">Not yet</td>
+    <td>Reels to a Page you manage. Facebook can hold a post and publish it
+        itself, up to about 75 days ahead. <strong>Meta&rsquo;s review is
+        outstanding</strong>, so Facebook can only be connected by the
+        developer&rsquo;s own account today.</td>
+  </tr>
+  <tr>
+    <td><strong>Instagram</strong></td>
+    <td class="yes">Built</td>
+    <td class="yes">Built</td>
+    <td class="part">Not yet</td>
+    <td>Reels, to a business account linked to a Facebook Page. Instagram has
+        no scheduling of its own, so the timing comes from Strider.
+        <strong>Meta&rsquo;s review is outstanding</strong>, as for Facebook.</td>
   </tr>
 </table>
+
+<p><strong>&ldquo;Built&rdquo; is a claim about real posts.</strong> Every row
+above has published and scheduled real video against that platform&rsquo;s live
+API from the live server &mdash; not in a test, and not as a mock.</p>
+
+<h2>Not built yet</h2>
+
+<p>One feature described elsewhere on this site is still to come:
+<strong>posting the first comment automatically</strong>. It is not built on any
+platform yet. When it arrives it will not be available everywhere &mdash;
+<strong>YouTube and TikTok do not permit an outside tool to post a comment at
+all</strong>, so it can only ever work on Facebook, Instagram and X.</p>
 
 <div class="box">
 <strong>Why "the timing has to come from Strider" matters.</strong> YouTube and
