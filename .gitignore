@@ -9,3 +9,6 @@ _old-*
 *-concepts.html
 homepage-original.html
 quick-links.html
+
+# notes kept beside the site but never part of it
+*.md
