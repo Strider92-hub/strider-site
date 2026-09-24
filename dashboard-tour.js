@@ -2,7 +2,7 @@
 const key='strider.preview.dashboardTour.v1';
 const steps=[
  ['Your dashboard','This is your workspace: see your connected accounts, prepare videos and keep track of publishing.','.hero'],
- ['Your connected socials','Check which accounts are connected. Manage account takes you to connection settings. Under construction means that integration is not yet ready for public use.','.platform-grid'],
+ ['Your connected socials','Check which accounts are connected. Manage account takes you to connection settings. YouTube, X, Instagram, TikTok and Facebook are supported.','.platform-grid'],
  ['Add your videos','Drag an MP4 or MOV into this area, or choose a file. Each video can be up to 500 MB, with 5 GB total account storage. This design preview does not upload files.','#video-drop-zone'],
  ['Prepare a post','Choose Create post beside a video to set its destination, title and caption. Expand Auto-fill draft for editable suggestions from a filename or topic. For YouTube, auto-fill selects Public; review visibility before posting.','#videos .item'],
  ['Post ASAP or schedule','The Create post form lets you choose Post ASAP or Schedule. Post to all selects all connected, available platforms. Preview actions do not publish or schedule a real video.','#videos'],
@@ -13,7 +13,7 @@ const steps=[
  ['Social Connections & X credit','Connect or manage your social accounts here. The X card links to X Balance. Minimum top-up is £10 and posting charges include a 15% markup. Real authorisation and payments are not connected in this preview.','.nav a[href="connections.html"]'],
  ['Billing & Subscription','See your plan, renewal and payment details. Find options for payment methods, plans, invoices and cancellation. This preview shows sample data and does not change your subscription.','.nav a[href="billing.html"]'],
  ['Your account','Manage your email and password, or personalise your dashboard with a logo or photo. Preview backgrounds are saved in this browser; account changes are demonstrations only.','.nav a[href="settings.html"]'],
- ['Platform status','See which integrations are working, under construction or coming soon. These readiness labels are not live uptime monitoring.','.nav a[href="status.html"]'],
+ ['Platform status','See the five working integrations and the other platforms coming soon. These readiness labels are not live uptime monitoring.','.nav a[href="status.html"]'],
  ['Video Tutorials','Find step-by-step video guide topics and replay this dashboard tour. YouTube tutorials are labelled Coming soon until the videos are available.','.nav a[href="tutorials.html"]'],
  ['Help & FAQ','Find answers to common questions and contact Strider using the message form. The form is currently a preview and does not send messages.','.nav a[href="faq.html"]'],
  ['Come back any time','Use Dashboard to return to your workspace. You can run this tour again from the Dashboard tour button or Video Tutorials.','.nav a[href="dashboard.html"]']
