@@ -3,3 +3,9 @@
 *.bak
 github.conf
 *.command
+
+# superseded assets and design concept pages - never publish
+_old-*
+*-concepts.html
+homepage-original.html
+quick-links.html
