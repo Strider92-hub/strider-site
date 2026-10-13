@@ -10,14 +10,17 @@ accesses, how it is used, who it is shared with, how it is protected, and how
 long it is kept.</p>
 
 <div class="box">
-<strong>The short version.</strong> Strider stores the access tokens needed to
-publish on your behalf, and the videos and captions you schedule, until they
-are published. It does not read your messages, your followers or your private
+<strong>The short version.</strong> Strider keeps what it needs to run your
+account and publish for you: your email address, the access tokens for the
+accounts you connect, the videos and pictures you upload (in your library until
+you delete them), your captions and schedule, and a record of what was
+published. It does not read your messages, your followers or your private
 data. The only figures it reads are the view, like, comment and repost counts
 of posts Strider published for you on YouTube and X (and, once you allow it,
 public TikTok videos and your TikTok follower count), to show you how they are
-doing. It publishes only to the accounts you connect, and only
-what you schedule. You can disconnect at any time and everything is deleted.
+doing. It publishes only to the accounts you connect, and only what you
+schedule. Disconnecting an account deletes its access straight away; closing
+your Strider account deletes everything Strider holds about you.
 </div>
 
 <div class="box">
@@ -93,15 +96,39 @@ account you have not connected.</p>
 
 <h3>From you</h3>
 <ul>
-  <li>The video files and captions you schedule</li>
-  <li>The times you choose to publish them</li>
-  <li>An email address, for your account and for support</li>
+  <li>Your email address and, if you give it, your name</li>
+  <li>Your password, stored only as a scrambled hash that cannot be turned back
+      into the password (not stored at all if you only sign in with Google or
+      Facebook)</li>
+  <li>The videos and pictures you upload, kept in your library until you
+      delete them or close your account</li>
+  <li>Your captions, titles, text posts, links, settings for each post and the
+      times you choose, and the plans you add to your calendar</li>
   <li>A record of what was published and when, so the app can show you your
       history and avoid publishing the same thing twice</li>
   <li>A short identifier of each video's contents, so the same clip is not
       accidentally published twice to the same account. It is derived from
       the file and cannot be turned back into it</li>
+  <li>Your plan and billing record from Paddle: your Paddle customer and
+      subscription references, the plan, its status and dates, and confirmation
+      that a payment went through or was refunded. Strider never sees or stores
+      your card details</li>
+  <li>Your X balance: top-ups and what each X post cost</li>
+  <li>If you take part: what you post in the Community (with the display name
+      you choose), your votes and any reports you make, and, for ambassadors,
+      referral and promotional-post records</li>
+  <li>Messages Strider sends to your in-app inbox, and whether you have read
+      them</li>
 </ul>
+
+<h3>What the Strider team can see</h3>
+<p>Strider is run by one person. To run the service and help you, the owner's
+dashboard shows each member's email address and name, plan, storage used,
+number of posts, which platforms are connected (with public account names
+where available), Community activity and ambassador status. It never shows
+access tokens, passwords, or the content of your uploads. Changes the owner
+makes to an account (for example adding posts to your allowance or changing
+your plan) are logged with who made them and when.</p>
 
 <h3>If you sign in with Google</h3>
 <p>You can create your Strider account or sign in with your Google account
@@ -189,21 +216,70 @@ building any audience model, for resale, or for training artificial
 intelligence or machine learning models. Your videos are not viewed by us
 except where you specifically ask for help with one.</p>
 
+<h3>Also used for</h3>
+<ul>
+  <li><strong>Your plan and payments.</strong> Paddle's confirmations are used
+      to switch your plan on or off and to work out your allowance.</li>
+  <li><strong>Email about your account.</strong> Sign-in and confirmation codes,
+      security notices (for example when two-step sign-in is turned on or off),
+      welcome emails and notices about your plan. Strider does not send
+      marketing email.</li>
+  <li><strong>Keeping Strider safe and working.</strong> Limiting repeated
+      wrong passwords and codes, preventing abuse of the platforms, keeping
+      backups, and the server records described in section 4.</li>
+  <li><strong>The Community.</strong> What you post there is shown to other
+      Strider members, with your display name. Reports are reviewed by the
+      owner.</li>
+</ul>
+
+<h3>The legal basis for each use</h3>
+<div class="legal-table"><table>
+  <tr><th>Use</th><th>Legal basis (UK GDPR)</th></tr>
+  <tr><td>Running your account, publishing for you, your library, history,
+      allowance and billing record</td><td>Contract: it is needed to provide
+      the service you signed up for</td></tr>
+  <tr><td>Post figures, two-step sign-in, Google or Facebook sign-in, the
+      Community</td><td>Contract: features you choose to use</td></tr>
+  <tr><td>Security, abuse prevention, server records, backups and the owner's
+      dashboard</td><td>Legitimate interests: keeping Strider secure,
+      reliable and properly run. These do not override your rights; you can
+      object (see section 6)</td></tr>
+  <tr><td>Contact form and ambassador applications (section 10)</td>
+      <td>Legitimate interests in replying to you, and your agreement where
+      the form asks for it</td></tr>
+  <tr><td>Anything the law requires us to keep or disclose</td>
+      <td>Legal obligation</td></tr>
+</table></div>
+
 <h2 id="section-3">3. Who it is shared with</h2>
 
 <p><strong>Your data is not sold, rented or shared with anyone for their own
 purposes.</strong> It is not shared with advertisers, data brokers, analytics
 companies, or AI services.</p>
 
-<p>It is disclosed in only three circumstances:</p>
+<p>It is disclosed only in these circumstances:</p>
 
 <ul>
   <li><strong>To the platform you chose.</strong> Publishing to TikTok means
       sending your video to TikTok. That is the service working as intended.</li>
   <li><strong>To the suppliers who run our systems</strong>, strictly to
-      provide the service — currently our hosting provider. They act on our
-      instructions and cannot use your data for anything else. A current list
-      is available on request.</li>
+      provide the service. They act on our instructions and cannot use your
+      data for anything else:
+      <ul>
+        <li><strong>Mythic Beasts</strong> &mdash; the server Strider runs on,
+            in London</li>
+        <li><strong>Namecheap (Private Email)</strong> &mdash; sends Strider's
+            emails and holds the hello@getstrider.co.uk mailbox</li>
+        <li><strong>GitHub (GitHub Pages)</strong> &mdash; hosts this public
+            website, so it sees the usual details any website host sees when
+            you visit</li>
+      </ul></li>
+  <li><strong>To Paddle</strong>, who sell Strider's paid plans as the seller
+      of record. Paddle collects your payment details directly and handles
+      them under its own privacy policy; Strider receives only the billing
+      record described in section 1.</li>
+  <li><strong>To Google or Meta, only if you choose to sign in with them</strong>
+      (see section 1). They already know you are using their sign-in.</li>
   <li><strong>Where the law requires it.</strong></li>
 </ul>
 
@@ -219,9 +295,31 @@ connection.</p>
 <p>All connections use HTTPS. Videos are uploaded directly to the platforms
 using their own published upload interfaces.</p>
 
-<h3>Your videos</h3>
-<p>Scheduled videos are stored only until they have been published, and are
-then deleted. They are not kept as an archive.</p>
+<h3>Your uploads</h3>
+<p>The videos and pictures you upload stay in your library, so you can post
+them again, until you delete them or close your account. Files Strider makes
+only to publish something (for example a converted picture, or a temporary
+link a platform fetches a picture from) are deleted as soon as that post is
+finished. Strider is not a backup service: keep your own copies.</p>
+
+<h3>Passwords and two-step sign-in</h3>
+<p>Passwords are stored only as a salted hash. Two-step sign-in secrets are
+encrypted, and backup codes are stored only in a form that cannot be turned
+back into the codes.</p>
+
+<h3>Backups</h3>
+<p>The server saves a copy of Strider's database every night and keeps the
+last 14. From time to time the owner also takes a full copy of the database
+and uploads, kept on the owner's own computer for up to 90 days. Backups are used
+only to recover from a fault. A closed account is not restored from a backup;
+its details drop out of the backups as they expire.</p>
+
+<h3>Server records</h3>
+<p>Like any website, Strider's server records each request it receives: the
+IP address, the page or action requested, the time and the browser's
+description of itself. These records are used only for security and to fix
+faults, and are kept only as long as that needs, normally no more than 90
+days.</p>
 
 <h3>Diagnostic reports</h3>
 <p>The diagnostic report Strider can produce is redacted before it is written:
@@ -239,17 +337,29 @@ health, biometric or special category data.</p>
 <div class="legal-table"><table>
   <tr><th>Data</th><th>Kept</th></tr>
   <tr><td>Access tokens</td><td>Until you disconnect the account, or your Strider account is closed</td></tr>
-  <tr><td>Scheduled videos and captions</td><td>Until published, then deleted</td></tr>
-  <tr><td>Record of what was published</td><td>Until your account is closed</td></tr>
-  <tr><td>Post figures (views, likes, comments, reposts and shares; TikTok follower count)</td><td>Refreshed regularly while shown; deleted if not refreshed for 30 days, and when your account is closed</td></tr>
-  <tr><td>Email address</td><td>Until your account is closed</td></tr>
+  <tr><td>Videos and pictures you upload</td><td>Until you delete them, or your account is closed</td></tr>
+  <tr><td>Captions, schedules, calendar plans and the record of what was published</td><td>Until your account is closed. Scheduled posts can be cancelled and calendar plans deleted at any time</td></tr>
+  <tr><td>Post figures (views, likes, comments, reposts and shares; TikTok follower count)</td><td>Refreshed regularly while shown; deleted if not refreshed for 30 days, when you disconnect that account, and when your account is closed</td></tr>
+  <tr><td>Email address, name, password hash and two-step sign-in data</td><td>Until your account is closed (two-step data also when you turn it off)</td></tr>
+  <tr><td>Billing record and X balance history</td><td>Until your account is closed</td></tr>
+  <tr><td>Community posts, votes and reports; inbox messages</td><td>Until your account is closed (a vote can be taken back at any time; to have a Community post removed sooner, ask us)</td></tr>
+  <tr><td>Server records</td><td>Normally no more than 90 days</td></tr>
+  <tr><td>Backups</td><td>Nightly copies 14 days; full copies up to 90 days</td></tr>
   <tr><td>Diagnostic reports you send</td><td>Deleted once the problem is resolved, and within 90 days</td></tr>
 </table></div>
+<p>When an account is closed, a short note that an account was deleted, and
+when, is kept as proof that it was done. It holds no email address, only a
+scrambled reference that cannot be turned back into one.</p>
 
 <h3>How to delete it</h3>
 <ol>
-  <li><strong>Disconnect an account</strong> inside Strider. Its token is
-      deleted immediately and Strider can no longer publish to it.</li>
+  <li><strong>Delete an upload</strong> from your library at any time. A file
+      a scheduled post is still waiting on is kept until that post is sent or
+      cancelled.</li>
+  <li><strong>Disconnect an account</strong> inside Strider. Its access token
+      and its post figures are deleted immediately and Strider can no longer
+      publish to it. Posts already scheduled for it are kept, and fail if
+      nothing is connected when they are due.</li>
   <li><strong>Revoke access at the platform.</strong> Every platform lets you
       remove an app's access from its own settings. For Google and YouTube this
       is the
@@ -259,26 +369,32 @@ health, biometric or special category data.</p>
       websites, where you can remove Strider. This works whether or not you still use
       Strider, and it is separate from Strider's own deletion of the data it
       holds.</li>
-  <li><strong>Close your Strider account</strong> by emailing
-      <a href="contact.html">Contact Strider</a>.
-      Everything above is deleted within 30 days.</li>
+  <li><strong>Close your Strider account</strong> yourself, under Your account
+      &rarr; Delete your account. Everything above is deleted straight away,
+      including your uploads, and drops out of backups as they expire. Cancel a
+      paid plan first; Strider will remind you. If you cannot sign in, email
+      <a href="mailto:hello@getstrider.co.uk">hello@getstrider.co.uk</a> from
+      the address on your account.</li>
 </ol>
 
 <h2 id="section-6">6. Your rights</h2>
 <p>Under UK data protection law you may ask for a copy of the personal data we
 hold about you, ask for it to be corrected or deleted, object to how it is
 used, or ask us to restrict its use. Email
-<a href="contact.html">Contact Strider</a> and we will
-respond within one month.</p>
+<a href="mailto:hello@getstrider.co.uk">hello@getstrider.co.uk</a> or use the
+<a href="contact.html">contact form</a>, and we will respond within one
+month.</p>
 
 <p>If you are unhappy with how we have handled your data you can complain to
 the Information Commissioner's Office at
 <a href="https://ico.org.uk">ico.org.uk</a>.</p>
 
 <h2 id="section-7">7. Where data is held</h2>
-<p>Data is held on servers in the United Kingdom or the European Economic Area.
-Where a supplier operates outside that area, appropriate safeguards are used as
-required by UK data protection law.</p>
+<p>Strider's server, with your account, uploads and records, is in London.
+Some suppliers (email, payments and the public website's host) may process
+data outside the UK, including in the United States. Where they do, the
+safeguards UK data protection law requires are used, such as the UK&ndash;US
+data bridge or the UK's standard contract clauses.</p>
 
 <h2 id="section-8">8. Children</h2>
 <p>Strider is not directed at children and is not intended for anyone under 18.</p>
