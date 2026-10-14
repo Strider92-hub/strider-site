@@ -1,0 +1,10 @@
+/* One menu on every page (13 Oct 2026). Platforms · How it works · Pricing · Help · Sign in · Sign up free */
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:16px 24px;flex-wrap:wrap}
+.site-menu{display:flex;align-items:center;flex-wrap:wrap;gap:8px 18px;font-size:12px}
+.site-menu a{color:#bd0054;text-decoration:none;font-weight:500}
+.site-menu a:hover,.site-menu a:focus-visible{text-decoration:underline;text-underline-offset:4px}
+.site-menu a[aria-current="page"]{color:#17121f;font-weight:600}
+.menu-signup,.site-menu .menu-signup{display:inline-block;background:#eaff00;color:#17121f;padding:8px 14px;border-radius:9px;font-weight:600;text-decoration:none;box-shadow:inset 0 -3px 0 #c8d900}
+.menu-signup:hover{text-decoration:none!important;filter:brightness(.97)}
+.service-tabs{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:12px;margin:0 0 18px}
+@media(max-width:600px){.site-menu{gap:8px 14px}}
